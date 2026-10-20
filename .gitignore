@@ -1,0 +1,14 @@
+# Временные и локальные файлы — не публикуем
+shots/
+*.log
+server.log
+server.err.log
+
+# ОС
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Секреты (на всякий случай, если появятся)
+.env
+.env.*
